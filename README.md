@@ -113,6 +113,8 @@ cargo nexus prove
 
 This command will save the proof to `./nexus-proof`.
 
+![cargo_nexus_prove](https://github.com/Okoye-Nelson/nexus-zkvm/assets/22650794/24d8d1a4-2335-444d-9bc8-618f256b0521)
+
 ### 5. Verify your proof
 
 Finally, load and verify the proof:
@@ -120,11 +122,19 @@ Finally, load and verify the proof:
 ```shell
 cargo nexus verify
 ```
+![cargo_nexus_verify](https://github.com/Okoye-Nelson/nexus-zkvm/assets/22650794/d4b58502-bb70-4896-b523-34b34e0518c6)
 
 ## Learn More
 
 Run `cargo nexus --help` to see all the available commands.
 
+You can then proceed to confirm that the nexus-proof file has been saved in the directory.
+
+![cargo_nexus_file](https://github.com/Okoye-Nelson/nexus-zkvm/assets/22650794/7ff931ca-f74b-48f1-9237-7ea63bc0871d)
+
 Also check out the documentation at [docs.nexus.xyz](https://docs.nexus.xyz), or join our [Telegram](https://t.me/nexus_zkvm) chat to discuss!
 
 Nexus is committed to open-source. All of our code is dual licensed under MIT and Apache licenses. We encourage and appreciate contributions.
+
+
+
